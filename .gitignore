@@ -1,0 +1,68 @@
+# Build Folders (Qt Creator default and common CMake)
+build/
+debug/
+release/
+-build-/
+*_build/
+
+# Qt User Specific files
+*.pro.user
+.pro.user.
+*.qbs.user
+.qbs.user.
+
+# Makefiles and related
+Makefile
+Makefile.Debug
+Makefile.Release
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.pch
+*.gch
+
+# Libraries and Executables
+*.a
+*.dll
+*.dylib
+*.exe
+*.app
+*.so
+*.lib
+
+# Qt Test logs
+.qttest.
+
+# Qt Creator backup files
+*~
+*.bak
+
+# Moc, Rcc, Uic generated files (often regenerated)
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+.uic/
+.moc/
+.rcc/
+
+# CMake specific
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# VS Code specific
+.vscode/
+
+# Other IDE specific files
+*.suo
+.ntvs
+*.njsproj
+*.sln.docstates
